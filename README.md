@@ -1,6 +1,7 @@
 # simpleKillSwitch
 Uses php and mysql
 
+- no dependencies
 - fixed-in-time contract payload execution
 - dns resolution kill switch
 - canary web page kill switch
