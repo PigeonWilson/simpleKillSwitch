@@ -17,5 +17,8 @@ Weaponized canary-like API and web page examples
 ## setup
 see asapLoader.php for configuration and ASAP.sql to import a basic database example
 
+## LICENSE
+MIT
+
 ### language(s)
 php 8.1, mysql
