@@ -182,16 +182,4 @@ class T
         return password_verify($thisNewThing, $original);
     }
 
-    public function genUidRoute(string $scriptPage) : string
-    {
-        try {
-            $uid = $this->db->customWhereClause2('DynamicPage', ['name' => $scriptPage], $scriptPage)->uid;
-            return NEBULA_ROUTER . "?uid=$uid";
-        }catch (Exception $e)
-        {
-            //return $e->getMessage();
-        }
-
-        return '';
-    }
 }
